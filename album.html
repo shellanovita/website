@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Discography | Laufey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">LAUFEY.</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Biodata</a></li>
+            <li><a href="facts.html">Fakta</a></li>
+            <li><a href="album.html" class="active">Album</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="reveal" style="text-align: center; margin-bottom: 40px;">The Discography</h2>
+
+        <div class="reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+            <div class="album-card">
+                <img src="images/laufey3.jpg" alt="Bewitched">
+                <h3>Bewitched (2023)</h3>
+                <p style="font-size: 0.9rem; margin-bottom: 10px;">The Goddess Edition</p>
+                <p style="font-size: 0.8rem; color: #aaa;">Hits: From The Start, California and Me</p>
+            </div>
+            
+            <div class="album-card">
+                <div style="background: #333; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 5px; margin-bottom: 15px;">
+                    <span style="color: white;">Cover Art 2</span>
+                </div>
+                <h3>Everything I Know About Love</h3>
+                <p style="font-size: 0.9rem; margin-bottom: 10px;">Album Debut (2022)</p>
+                <p style="font-size: 0.8rem; color: #aaa;">Hits: Valentine, Fragile</p>
+            </div>
+
+            <div class="album-card">
+                 <div style="background: #333; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 5px; margin-bottom: 15px;">
+                    <span style="color: white;">Cover Art 3</span>
+                </div>
+                <h3>Typical of Me</h3>
+                <p style="font-size: 0.9rem; margin-bottom: 10px;">Debut EP (2021)</p>
+                <p style="font-size: 0.8rem; color: #aaa;">Hits: Street by Street</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 60px; text-align: center;" class="reveal">
+            <h3>Gaya Musik</h3>
+            <p style="max-width: 600px; margin: 10px auto;">"Lirik seperti surat cinta, musik tenang dengan banyak instrumen gesek (string), cocok untuk suasana sepi dan refleksi."</p>
+        </div>
+    </div>
+
+    <div class="music-player-bar">
+        <span style="color: var(--text-gold); font-size: 0.9rem;">🎵 Now Playing: Laufey's Vibe</span>
+        <audio controls loop>
+            <source src="music/musik1.mp3" type="audio/mpeg">
+            Browser kamu tidak support audio.
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
